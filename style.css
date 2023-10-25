@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+#game {
+    padding-top: 8%;
+}
+
 h1 {
     font-size: 2rem;
     text-align: center;
