@@ -47,3 +47,7 @@ button:hover {
 #scissors {
     background-color: #4caf50;
 }
+
+#user-score {
+    color: #2196f3;
+}
