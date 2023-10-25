@@ -51,3 +51,7 @@ button:hover {
 #user-score {
     color: #2196f3;
 }
+
+#computer-score {
+    color: #ff0000;
+}
