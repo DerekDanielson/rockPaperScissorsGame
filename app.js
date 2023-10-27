@@ -26,5 +26,21 @@ for (let i = 0; i < buttonEl.length; i++){
         const computerChoice = rand.textContent;
         //console.log(buttonEl);
         console.log(computerChoice);
+
+        if (userChoice === computerChoice){
+            console.log('Tie');
+        } else if (userChoice === 'Rock' && computerChoice === 'Paper'){
+            console.log('Lose');
+        } else if (userChoice === 'Rock' && computerChoice === 'Scissors'){
+            console.log('Win');
+        } else if (userChoice === 'Paper' && computerChoice === 'Rock'){
+            console.log('Win');
+        } else if (userChoice === 'Paper' && computerChoice === 'Scissors'){
+            console.log('Lose');
+        } else if (userChoice === 'Scissors' && computerChoice === 'Rock'){
+            console.log('Lose');
+        } else {
+            console.log('Win');
+        }
     });
 };
