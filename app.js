@@ -44,3 +44,9 @@ for (let i = 0; i < buttonEl.length; i++){
         }
     });
 };
+
+
+// Compare user choice to computer choice
+
+
+// Update score
