@@ -28,7 +28,8 @@ p {
 
 button {
     border: none;
-    font-size: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
     margin: 0 .5rem;
     padding: .5rem;
     cursor: pointer;
