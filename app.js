@@ -23,6 +23,8 @@ for (let i = 0; i < buttonEl.length; i++){
 
         // Generate random computer choice
         const rand = buttonEl[Math.floor(Math.random() * buttonEl.length)];
-        
+        const computerChoice = rand.textContent;
+        //console.log(buttonEl);
+        console.log(computerChoice);
     });
 };
