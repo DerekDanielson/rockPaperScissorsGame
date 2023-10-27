@@ -16,5 +16,9 @@ for (let i = 0; i < buttonEl.length; i++){
     buttonEl[i].addEventListener('click', ()=>{
         const userChoice = buttonEl[i].textContent;
         console.log(userChoice);
+        //console.log(rockBtn);
+        //const rock = arr[0];
+        //const paper = arr[1];
+        //console.log(rock);
     });
 };
