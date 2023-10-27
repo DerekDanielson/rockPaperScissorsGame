@@ -27,6 +27,7 @@ for (let i = 0; i < buttonEl.length; i++){
         //console.log(buttonEl);
         console.log(computerChoice);
 
+// CHnage to switch statement ************************
         if (userChoice === computerChoice){
             console.log('Tie');
         } else if (userChoice === 'Rock' && computerChoice === 'Paper'){
