@@ -10,3 +10,11 @@ const computerScore = document.getElementById('computer-score');
 let arr = ['&#x1F44A;','&#x1F590;','&#x270C;'];
 
 
+// Add event listeners
+for (let i = 0; i < buttonEl.length; i++){
+    // Add event listener for each button
+    buttonEl[i].addEventListener('click', ()=>{
+        const userChoice = buttonEl[i].textContent;
+        console.log(userChoice);
+    });
+};
