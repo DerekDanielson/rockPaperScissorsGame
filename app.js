@@ -20,5 +20,9 @@ for (let i = 0; i < buttonEl.length; i++){
         //const rock = arr[0];
         //const paper = arr[1];
         //console.log(rock);
+
+        // Generate random computer choice
+        const rand = buttonEl[Math.floor(Math.random() * buttonEl.length)];
+        
     });
 };
